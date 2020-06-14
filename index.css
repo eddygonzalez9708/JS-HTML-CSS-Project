@@ -23,14 +23,15 @@ body {
 
 .calc-row:first-child {
     background: #000;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .calc-row:first-child .calc-val {
     color: #fff;
     overflow-x: scroll;
     padding: 0 3px 0 0;
+    text-align: right;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .calc-row:last-child button {
