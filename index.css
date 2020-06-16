@@ -73,6 +73,10 @@ body {
     background: #dfb07e;
 }
 
+.calc-row button:last-child:active {
+    background: #dd8d37;
+}
+
 .clear {
     width: 50% !important;
 }
