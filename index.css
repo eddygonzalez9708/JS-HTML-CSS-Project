@@ -59,6 +59,10 @@ body {
     background: #ebebeb
 }
 
+.calc-row button:active {
+    background: #bbbcbe;
+}
+
 .calc-row button:last-child {
     background: #df974c;
     border-right: none;
